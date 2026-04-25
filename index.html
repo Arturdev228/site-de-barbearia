@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Barbearia Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>💈 Barbearia Pro</h1>
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#agendamento">Agendar</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Seu estilo começa aqui</h2>
+  <p>Cortes profissionais e atendimento premium</p>
+</section>
+
+<section id="servicos" class="section">
+  <h2>Serviços</h2>
+  <div class="cards">
+    <div class="card">Corte</div>
+    <div class="card">Corte + Barba</div>
+    <div class="card">Corte + Sobrancelha</div>
+    <div class="card">Combo Completo</div>
+  </div>
+</section>
+
+<section id="agendamento" class="section">
+  <h2>Agendar Horário</h2>
+
+  <select id="servico">
+    <option value="">Selecione o serviço</option>
+    <option>Corte</option>
+    <option>Corte + Barba</option>
+    <option>Corte + Sobrancelha</option>
+    <option>Combo Completo</option>
+  </select>
+
+  <select id="barbeiro"></select>
+
+  <input type="date" id="data">
+
+  <div id="horarios"></div>
+
+  <button id="agendar">Confirmar</button>
+
+  <p id="msg"></p>
+</section>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

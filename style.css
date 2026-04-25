@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #111;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #000;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: gold;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(#000, #222);
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+select, input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+}
+
+#horarios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.horario {
+  padding: 10px;
+  background: #333;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.horario.selected {
+  background: gold;
+  color: black;
+}
+
+button {
+  padding: 12px 20px;
+  background: gold;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#msg {
+  margin-top: 10px;
+}
